@@ -22,10 +22,10 @@ const ProductCard = ({ product }) => {
           />
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-semibold text-gray-800 mb-2 line-clamp-2">
+          <h3 className="text-xl font-semibold text-gray-800 mb-2 line-clamp-2">
             {product.name}
           </h3>
-          <p className="text-2xl font-bold text-blue-600 mb-3">
+          <p className="text-md font-bold text-blue-600 mb-3">
             ₹{product.price.toFixed(2)}
           </p>
         </div>

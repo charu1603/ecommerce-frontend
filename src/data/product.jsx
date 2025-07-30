@@ -50,7 +50,7 @@ export const products = [
   },
   {
     id: 12,
-    name: "Mercedes-Benz C-Class",
+    name: "Mercedes-Benz",
     price: 439.99,
     category: "cars",
     image: car3,
@@ -59,7 +59,7 @@ export const products = [
   },
   {
     id: 96,
-    name: "Mercedes-Benz C-Class",
+    name: "Mercedes-Benz",
     price: 439.99,
     category: "cars",
     image: car3,
@@ -68,7 +68,7 @@ export const products = [
   },
   {
     id: 1,
-    name: "Sony  Headphones",
+    name: "SonyHeadphones",
     price: 349.99,
     category: "headphones",
     image: head1,
@@ -86,7 +86,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Bose QuietComfort 35 II",
+    name: "Bose QuietComfort",
     price: 299.99,
     category: "headphones",
     image: head3,
@@ -95,7 +95,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Sennheiser HD 660 S",
+    name: "Sennheiser HD ",
     price: 499.99,
     category: "headphones",
     image: head4,
@@ -104,7 +104,7 @@ export const products = [
   },
   {
     id: 99,
-    name: "Sennheiser HD 660 S",
+    name: "Sennheiser HD",
     price: 499.99,
     category: "headphones",
     image: head5,
@@ -113,7 +113,7 @@ export const products = [
   },
   {
     id: 98,
-    name: "Sennheiser HD 660 S",
+    name: "Sennheiser HD66",
     price: 499.99,
     category: "headphones",
     image: head6,
@@ -123,7 +123,7 @@ export const products = [
   // Bikes
   {
     id: 5,
-    name: "Trek Domane SL 7",
+    name: "Trek Domane SL",
     price: 4999.99,
     category: "bikes",
     image: bike,
@@ -132,7 +132,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "Specialized Stumpjumper",
+    name: "Specialize Stump",
     price: 3299.99,
     category: "bikes",
     image: bike1,
@@ -140,7 +140,7 @@ export const products = [
   },
   {
     id: 7,
-    name: "Giant TCR Advanced Pro",
+    name: "Giant TCR",
     price: 2799.99,
     category: "bikes",
     image: bike2,
@@ -149,7 +149,7 @@ export const products = [
   },
   {
     id: 8,
-    name: "Cannondale Quick CX 3",
+    name: "Cannondale CX 3",
     price: 899.99,
     category: "bikes",
     image: bike3,
@@ -170,7 +170,7 @@ export const products = [
   // Cosmetics
   {
     id: 13,
-    name: "Fenty Beauty Foundation",
+    name: "Fenty Foundation",
     price: 36.99,
     category: "cosmetics",
     image: cos,
@@ -178,7 +178,7 @@ export const products = [
   },
   {
     id: 14,
-    name: "Charlotte Tilbury Lipstick",
+    name: "Charlotte Lipstick",
     price: 38.99,
     category: "cosmetics",
     image: cos1,
@@ -187,7 +187,7 @@ export const products = [
   },
   {
     id: 15,
-    name: "Urban Decay Palette",
+    name: "Urban Palette",
     price: 54.99,
     category: "cosmetics",
     image: cos2,
@@ -195,7 +195,7 @@ export const products = [
   },
   {
     id: 16,
-    name: "Glossier Cloud Paint",
+    name: "Glossier Paint",
     price: 18.99,
     category: "cosmetics",
     image: cos3,

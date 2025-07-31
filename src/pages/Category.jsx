@@ -38,7 +38,7 @@ const Category = () => {
   };
 
   return (
-    <div className="p-6 pt-20">
+    <div className="p-6 pt-4">
       {/* Category Header */}
       <div className="flex items-center space-x-3 my-6">
         <span className="text-3xl">{categoryIcons[categoryName]}</span>

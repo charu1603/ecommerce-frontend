@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import Banner from "../components/Banner";
 import ProductCard from "../components/ProductCard";
 import { products } from "../data/product";
-import { Car, Bike, Headset } from "lucide-react";
+import { Car, Bike, Headset, Loader } from "lucide-react";
 const Home = () => {
   const categories = [
     { name: "Headphones", key: "headphones", icon: <Headset /> },
     { name: "Bikes", key: "bikes", icon: <Bike /> },
     { name: "Cars", key: "cars", icon: <Car /> },
-    { name: "Cosmetics", key: "cosmetics", icon: "💄" },
+    { name: "Cosmetics", key: "cosmetics", icon: <Loader /> },
   ];
 
   const getProductsByCategory = (category) => {
@@ -18,7 +18,7 @@ const Home = () => {
   };
 
   return (
-    <div className="p-6 pt-20">
+    <div className="p-6 pt-4">
       <Banner />
 
       {categories.map((category) => {

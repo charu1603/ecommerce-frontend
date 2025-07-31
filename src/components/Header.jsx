@@ -7,7 +7,7 @@ const Header = () => {
   const { getTotalItems } = useCart();
 
   return (
-    <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50 hidden md:block">
       <div className="px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">

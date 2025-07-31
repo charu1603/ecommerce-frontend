@@ -15,7 +15,7 @@ const ProductDetails = () => {
 
   if (!product) {
     return (
-      <div className="p-6 pt-20">
+      <div className="p-6 pt-8">
         <div className="text-center py-12">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
             Product Not Found
@@ -45,7 +45,7 @@ const ProductDetails = () => {
   const productImages = [product.image, product.image, product.image];
 
   return (
-    <div className="p-6 pt-20">
+    <div className="p-6 pt-4">
 
       <div className="bg-white rounded-lg shadow-sm overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6">

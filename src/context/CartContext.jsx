@@ -70,9 +70,10 @@ export const CartProvider = ({ children }) => {
     );
   };
 
-  const getTotalItems = () => {
-    return state.items.reduce((total, item) => total + item.quantity, 0);
-  };
+const getTotalItems = () => {
+  return state.items.length;
+};
+
 
   return (
     <CartContext.Provider
